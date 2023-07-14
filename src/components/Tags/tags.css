@@ -1,0 +1,16 @@
+.tags__container{
+    max-width: 700px;
+    margin: 0 auto;
+    color: aqua;
+    padding: 0;
+}
+.tags:not(:last-child){
+    padding-right:10px ;
+}
+.tags{
+    padding-left:10px;
+    cursor: pointer;
+}
+.active{
+    text-decoration: underline;
+}

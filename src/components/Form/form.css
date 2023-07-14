@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+body{
+  background-color: rgba(7, 6, 24, 0.97);
+}
+.form{
+  display: flex;
+  align-items: flex-end;
+  max-width: 700px;
+  margin: 0 auto 15px;
+  color: aliceblue;
+}
+.block{
+  display: flex;
+  max-width: 700px;
+  justify-content: space-between;
+  margin: 20px auto;
+  align-items: center;
+
+}
+.form label{
+  margin-bottom: 10px;
+}
+.form__inputs{
+  font-family: 'Caprasimo', cursive;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: aliceblue;
+}
+#input::placeholder{
+  font-family: 'Caprasimo', cursive;
+
+}
+#input{
+  font-family: 'Caprasimo', cursive;
+  height: 29px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+}
+.form button{
+  font-family: 'Caprasimo', cursive;
+  border: none;
+  padding: 8px 10px;
+  background-color: #c4fffd;
+  color: #654d0d;
+  border-radius:  0 10px 10px 0;
+  cursor: pointer;
+}
+.paragraph{
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-family: 'Caprasimo', cursive;
+}
+.check{
+  width: 20px;
+  height: 20px;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+}
+.remove{
+  font-family: 'Caprasimo', cursive;
+  color: #c4fffd;
+  cursor: pointer;
+}
+.label{
+  line-height: 9px;
+}
+
+
